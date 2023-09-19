@@ -1,0 +1,130 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+  }
+  a{
+    text-decoration: none;
+  }
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background-color: #9ACA92;
+    border-bottom: 1px solid #87af80;
+    
+  }
+  header .notification >button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent; /* 뒷 배경을 부모와 같게 맞춰줌 */
+    border:none;
+    margin-top: 1rem;
+    float: left;
+    
+  }
+  #setting{
+    width: 30%;
+    height:30rem;
+    position: absolute;
+    display: none;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 15px;
+    z-index: 1;
+    border: 1px solid #87af80;
+    }
+
+  header > .inner {
+    height: 120px;
+  }
+  header .logo {
+    height: 75px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin: auto;
+  }
+  header .sub-menu {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex;
+  }
+  header .sub-menu ul.menu {
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+  header .sub-menu ul.menu li {
+    position: relative;
+  }
+  header .sub-menu ul.menu li::before {
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  header .sub-menu ul.menu li:first-child::before {
+    display: none;
+  }
+  header .sub-menu ul.menu li a {
+    padding: 11px 16px;
+    display: block;
+    font-size: 13px;
+    color: #656565;
+  }
+  header .sub-menu ul.menu li a:hover {
+    color: #000;
+  }
+
+  main{
+    /*background: #656565;*/
+    
+    min-height: 700px;
+    text-align: center;
+  }
+  .store_name{
+    position: relative;
+    text-align: left;
+    top:150px;
+    margin-left: 5%;
+  }
+  .store_name h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 28px;
+    color:#333;
+    display: inline-block;
+  }
+  .blank_list{
+    position: relative;
+    text-align: left;
+    top:180px;
+    margin-left: 5%;
+  }
+  .blank_list h3{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 24px;
+    color:#333;
+    display: inline-block;
+  }
+  .blank_list ul {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex;
+  }
+  .blank_list ul.list{
+    position:relative
+  }
