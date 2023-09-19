@@ -13,8 +13,8 @@ body {
     position: fixed;
     top: 0;
     z-index: 9;
-    background-color: #9ACA92;
-    border-bottom: 1px solid #87af80;
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
   }
   header > .inner {
     height: 120px;
@@ -24,7 +24,7 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 50%;
+    left: 40%;
     margin: auto;
   }
   header .sub-menu {
@@ -57,10 +57,10 @@ body {
     padding: 11px 16px;
     display: block;
     font-size: 13px;
-    color: #656565;
+    color: #ffffff;
   }
   header .sub-menu ul.menu li a:hover {
-    color: #000;
+    color: #fff;
   }
   .store_name{
     position: relative;
