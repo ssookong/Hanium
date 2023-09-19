@@ -22,3 +22,4 @@ for i in range(1,4):
         result = "Empty"
 
     print("Prediction:", result)
+    
