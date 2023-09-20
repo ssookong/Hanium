@@ -1,0 +1,108 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  background-color: #000000;
+  border-bottom: 1px solid #000000;
+}
+header > .inner {
+  height: 120px;
+}
+header .logo {
+  height: 75px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40%;
+  margin: auto;
+}
+header .sub-menu {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  display: flex;
+}
+header .sub-menu ul.menu {
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+header .sub-menu ul.menu li {
+  position: relative;
+}
+header .sub-menu ul.menu li::before {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #e5e5e5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+header .sub-menu ul.menu li:first-child::before {
+  display: none;
+}
+header .sub-menu ul.menu li a {
+  padding: 11px 16px;
+  display: block;
+  font-size: 13px;
+  color: #ffffff;
+}
+header .sub-menu ul.menu li a:hover {
+  color: #fff;
+}
+main{
+  /*background: #656565;*/
+  
+  min-height: 700px;
+  text-align: center;
+}
+.title{
+  position: relative;
+  text-align: center;
+  top:240px;
+}
+.title h1{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 28px;
+  color:#303030;
+  display: inline-block;
+}
+.title h3{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  color:#8f8f8f;
+  display: inline-block;
+}
+.search{
+  width: 100%;
+  height: 100px;
+  
+  align-items: center;
+  position:absolute;
+  margin: 0 auto;
+  top:320px;
+  left:0;
+
+}
+.text-field{
+  
+  /*align-items: center;*/
+  width: 500px;
+  height: 58px;
+  margin: 0 auto;
+  border-radius: 15px;
+  font-size: 18px;
+  border:2px solid #303030;
+}
